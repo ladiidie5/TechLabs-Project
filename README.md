@@ -1,5 +1,6 @@
 # TechLabs-Project
 Project-How to stay mentally healthy in quarantine?
+
 Basic idea: Build a website application where the users interact with a survey in which they are asked basic questions on how is their day going (related to their mood). Survey answers will be analysed and the app will return content based on the mood of the user:
 
 1. Bad mood: app will return positive/uplifting content including good news, positive activities, easy delicious recipes, happy playlists, heartwarming stories,  etc.
