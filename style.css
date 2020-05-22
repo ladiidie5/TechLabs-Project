@@ -1,0 +1,25 @@
+.header{
+    background-image: url('Images/maui.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 500px; 
+}
+
+.overlay{
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.50);
+  }
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    border-radius: 5px;
+    background-color: rgb(204, 204, 204, 0.80);
+    
+}
