@@ -3,7 +3,7 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 500px; 
+    height: 600px; 
 }
 
 .overlay{
@@ -22,4 +22,16 @@
     border-radius: 5px;
     background-color: rgb(204, 204, 204, 0.80);
     
+}
+.card{
+    width: 20px;
+}
+
+.teamTitle{
+    margin: 10px;
+}
+
+.profileimg{
+    border-radius: 3px;
+    width: 90%;
 }
