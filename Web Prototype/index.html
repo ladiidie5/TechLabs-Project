@@ -37,7 +37,7 @@
                             </div>
                         </li>
                         <!--Links to a page showing the team-->
-                        <li class="nav-item">
+                        <li id="teamBtn" class="nav-item">
                             <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Team</a>
                         </li>
                     </ul>
@@ -63,12 +63,16 @@
             </div>  
         </header>
 
-        <!--Team section: each team member has a card and a bit of info about them-->
-        <div class="team container">
+        
 
-            <div class="row justify-content-center">
-                <h2 class="teamTitle">Our Team</h2>
-            </div>
+        <!--Team section: each team member has a card and a bit of info about them-->
+        <div class="d-flex">
+            <hr class="my-auto flex-grow-1">
+            <div><h2 id="teamTitle">Our Team</h2></div>
+            <hr class="my-auto flex-grow-1">
+        </div>
+
+        <div class="team container">
 
             <div class="row justify-content-around">
 
@@ -138,6 +142,7 @@
 
     </body>
 
+    <script type="text/javascript" src="app.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
