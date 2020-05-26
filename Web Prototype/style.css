@@ -35,3 +35,43 @@
     border-radius: 3px;
     width: 90%;
 }
+
+/* FOOTER CSS */
+
+.page-footer{
+    margin-top: 100px;
+
+}
+
+.footerContainer {
+    background-color: #D5CAC1;
+    color:gray;
+    padding-top: 20px;
+}
+
+.footerLinks {
+    color: gray !important;
+    text-decoration: none;
+}
+
+/* Survey CSS */
+
+#userNameInput {
+    margin-left: 10px;
+}
+
+.questionRow {
+    justify-content: left;
+    margin-top: 10px;
+    background-color: honeydew;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.question {
+    padding: 20px 0px;
+}
+
+.optionContainer{
+    padding: 20px 0px;
+}

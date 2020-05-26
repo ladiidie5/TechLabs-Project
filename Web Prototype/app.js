@@ -1,16 +1,16 @@
 
 // Nav bar configuration
 
-    //Smooth scroll to team members. 
-var teamBtn = document.getElementById("teamBtn");
+    //Smooth scroll to team members. Not working for whatever reason I can't understand. 
+const teamBtn = document.getElementById("teamBtn");
 
 teamBtn.addEventListener("click", scrollToTeam);
 
 function scrollToTeam() {
-    var teamTitle = document.getElementById("teamTitle"); 
-    teamTitle.scrollIntoView({
-        behaviour: 'smooth',
-    });
+    const teamTitle = document.getElementById("teamTitle"); 
+    teamTitle.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start' });
   };
+
+
 
   
