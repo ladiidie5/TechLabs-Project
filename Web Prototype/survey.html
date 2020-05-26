@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TBD</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <!--Navigation bar-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">MoodBooster</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <!--Link to a page with positive or uplifting news-->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li> -->
+
+                        <!-- Survey button -->
+                        <a href="survey.html">
+                            <button class="surveyBtn btn btn-outline-success" type="button">Take the survey!</button>
+                        </a>
+
+                        <!--Content nav item-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Content
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!--All content related to activities the user can do-->
+                                <a class="dropdown-item" href="#">Activities</a>
+                                <!--Only news page-->
+                                <a class="dropdown-item" href="#">News</a>
+                                <!--Page showing all content available in the page-->
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">All content</a>
+                            </div>
+                        </li>
+                        <!--Links to a page showing the team-->
+                        <div id="teamBtn">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#teamTitle" tabindex="-1" aria-disabled="true">Team</a>
+                            </li>
+                        </div>
+                    </ul>
+                <!--Leaving the search bar for now in case we need it-->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                </div>
+            </nav>
+
+            <!-- Mood Survey -->
+
+            <form class="surveyForm">
+                <div class="nameInput form-group container">
+                    <!--User name input-->
+                    <div class="form-inline row">
+                        <label for="userName">Name</label>
+                        <input type="text" class="form-control" id="userNameInput" placeholder="Enter your name here">
+                </div>
+                    <!-- Questions -->
+                    <div class="questionsContainer container">
+
+                        <!-- question 1: How easy was to get out of bed today? Radio question -->
+                        <div class="questionRow bedQuestion row">
+                            <div class="question"><p>How easy was to get out of bed today?</p></div>
+                        </div>
+                        <div class="bedOptions row">       
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="bedQuestion" class="radioBtn custom-control-input" id="positiveAnswer1">
+                                <label for="positiveAnswer1" class="custom-control-label">Ready to take a new day!</label>
+                            </div>
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="bedQuestion" class="radioBtn custom-control-input" id="neutralAnswer1">
+                                <label for="neutralAnswer1" class="custom-control-label">Took a little while, but got out of bed.</label>
+                            </div>
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="bedQuestion" class="radioBtn custom-control-input" id="negativeAnswer1">
+                                <label for="negativeAnswer1"class="custom-control-label">Haven't left my hibernation chamber</label>
+                            </div>
+                        </div>
+
+                        <!-- question 2: How was your sleep? Radio question-->
+                        <div class="questionRow sleepQuestion row">
+                            <div class="question"><p>How was your sleep?</p></div>
+                        </div>
+                        <div class="sleepOptions row">       
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="sleepQuestion" class="radioBtn custom-control-input" id="positiveAnswer2">
+                                <label for="positiveAnswer2" class="custom-control-label">Great! slept >8hrs</label>
+                            </div>
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="sleepQuestion" class="radioBtn custom-control-input" id="neutralAnswer2">
+                                <label for="neutralAnswer2" class="custom-control-label">Regular, slept 8 hrs but it could have been better </label>
+                            </div>
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="sleepQuestion" class="radioBtn custom-control-input" id="negativeAnswer2">
+                                <label for="negativeAnswer2" class="custom-control-label">Feeling tired. Slept less than 5 hrs</label>
+                            </div>
+                        </div> 
+
+                        <!-- question 3: How would you classify your energy level today?-->
+                        <div class="questionRow energyQuestion row">
+                            <div class="question"><p>How would you classify your energy level today?</p></div>
+                        </div>
+                        <div class="energy Options row">       
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="energyQuestion" class="radioBtn custom-control-input" id="positiveAnswer3">
+                                <label  for="positiveAnswer3" class="custom-control-label">I'm ready to reach my full potential!</label>
+                            </div>
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="energyQuestion" class="radioBtn custom-control-input" id="neutralAnswer3">
+                                <label  for="neutralAnswer3" class="custom-control-label">Got some energy but might need some motivation</label>
+                            </div>
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="energyQuestion" class="radioBtn custom-control-input" id="negativeAnswer3">
+                                <label  for="negativeAnswer3" class="custom-control-label">I'm drained out.</label>
+                            </div>
+                        </div> 
+
+                        <!-- question 4: How is your stress level? -->
+                        <div class="questionRow stressQuestion row">
+                            <div class="question"><p>How is your stress level?</p></div>
+                        </div>
+                        <div class="stressOptions row">       
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="stressQuestion" class="radioBtn custom-control-input" id="positiveAnswer4">
+                                <label for="positiveAnswer4" class="custom-control-label">I'm relaxed, can take anything the world throws at me</label>
+                            </div>
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="stressQuestion" class="radioBtn custom-control-input" id="neutralAnswer4">
+                                <label for="neutralAnswer4" class="custom-control-label">Bit worried, but well this is life.</label>
+                            </div>
+                            <div class="optionContainer col custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="stressQuestion" class="radioBtn custom-control-input" id="negativeAnswer4">
+                                <label for="negativeAnswer4" class="custom-control-label">OMG THE APOCALYPSE IS HAPPENING</label>
+                            </div>
+                        </div>
+
+                        <!-- Submit button -->
+
+                        <div class="submitBtn row">
+                            <div><input type="submit" value="submit" class="btn btn-primary"></div>
+                        </div>
+
+                    </div>
+                </div>
+            
+
+
+
+            </form>
+
+    
+
+            <!-- FOOTER -->
+            <footer class="page-footer">
+                <div class="footerContainer container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col col-8"></div>
+                        <div class="col col-4">
+                            <ul>
+                                <li><a class="footerLinks" href="#">Team</a></li>
+                                <li><a class="footerLinks" href="#">News</a></li>
+                                <li><a class="footerLinks" href="#">Take the Survey!</a></li>
+                                <li><a class="footerLinks" href="#">Other</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <p>Made by Group 20 of the TechLabs Codeathome bootcamp</p>
+                    </div>
+                </div>
+            </footer>
+
+
+
+
+
+    </body>
+
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</html>

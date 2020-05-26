@@ -19,7 +19,11 @@
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#"></a>
                         </li> -->
-                        <button class="surveyBtn btn btn-outline-success" type="button">Take the survey!</button>
+                        
+                        <!-- Survey button -->
+                        <a href="survey.html">
+                            <button class="surveyBtn btn btn-outline-success" type="button">Take the survey!</button>
+                        </a>
 
                         <!--Content nav item-->
                         <li class="nav-item dropdown">
@@ -37,9 +41,11 @@
                             </div>
                         </li>
                         <!--Links to a page showing the team-->
-                        <li id="teamBtn" class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Team</a>
-                        </li>
+                        <div id="teamBtn">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#teamTitle" tabindex="-1" aria-disabled="true">Team</a>
+                            </li>
+                        </div>
                     </ul>
                 <!--Leaving the search bar for now in case we need it-->
                 <form class="form-inline my-2 my-lg-0">
@@ -68,7 +74,7 @@
         <!--Team section: each team member has a card and a bit of info about them-->
         <div class="d-flex">
             <hr class="my-auto flex-grow-1">
-            <div><h2 id="teamTitle">Our Team</h2></div>
+            <div id="teamTitle"><h2>Our Team</h2></div>
             <hr class="my-auto flex-grow-1">
         </div>
 
@@ -134,8 +140,28 @@
             </div>
 
         </div>
-    
 
+    <!-- FOOTER -->
+        <footer class="page-footer">
+            <div class="footerContainer container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col col-8"></div>
+                    <div class="col col-4">
+                        <ul>
+                            <li><a class="footerLinks" href="#">Team</a></li>
+                            <li><a class="footerLinks" href="#">News</a></li>
+                            <li><a class="footerLinks" href="#">Take the Survey!</a></li>
+                            <li><a class="footerLinks" href="#">Other</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <div class="row justify-content-center">
+                    <p>Made by Group 20 of the TechLabs Codeathome bootcamp</p>
+                </div>
+            
+            </div>
+        </footer>
 
 
 
