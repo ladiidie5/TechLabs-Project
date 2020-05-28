@@ -1,22 +1,26 @@
 # TechLabs-Project
 
-##**Mood.Booster**
+## **Mood.Booster**
 
 
 ## Table of contents
 * [General info](#general-info)
+* [Survey](#Survey)
+* [Facebook Scraping](#Facebook Scraping)
+* [Emotion detention](#Emotion detention)
+* [News Clasification](#News Clasification)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+Mood Booster is a Web App desinged to help people stay mentally healthy in quarantine due to COVID-19, but not only in quarantine, also in normal life style.
 	
 ## Technologies
 Project is created with:
 * Lorem version: 12.3
 * Ipsum version: 2.33
 * Ament library version: 999
-	
+	Example*
 ## Setup
 To run this project, install it locally using npm:
 
