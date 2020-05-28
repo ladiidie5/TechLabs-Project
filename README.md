@@ -2,12 +2,13 @@
 
 # Mood Booster
 ## Which is the problem the solution solves?
-During quarantine due to COVID-19 global health crisis, the world realized that not everyone is prepared mentally for a lockdown, this has increased the suicide rate and depression skyrocket, Mood Booster goal its to reduce the lockdown effect on mental health using technology.
+During quarantine due to COVID-19 global health crisis, the world realized that not everyone is prepared mentally for a lockdown, this has increased the suicide rate and depression skyrocket, Mood Booster goal its to reduce the lockdown effect on mental health using technology and the current demand for entertainment around the world.
 
 ## Solution Pitch
 Mood Booster is a Web App desinged to help people stay mentally healthy in quarantine due to COVID-19, but not only in quarantine, also in their normal life style. Mood Booster's purpose is to keep up a positive mindset on the users feeding them with news and articles of their favorite topics and hobbies to show them how beautiful they can make their own life. 
 
 ## The solution
+Mood Booster will start with a survey to get to know more about the user and take a photo, it will be optional to get access to Facebook for further exploring around the user taste, according to the information collected, Mood Booster will import and classify as good, neutral or bad news/articles. Every morning the web app/app along with a good morning and motivational quote will check the mood of the user, according to the mood of the user that day news, articles and content will be feed via notifications, this will also include recommendations on series, yoga, Sen culture, games, conferences, ted talks, etc. Due to the COVID-19 quarantine initially, Mood Booster won't ask about the mood, it will start with a good morning, motivational quote, and an invitation to do activities according to your tastes.
 
 ## Impact on the crisis
 
