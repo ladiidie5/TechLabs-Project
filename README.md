@@ -10,7 +10,7 @@ During quarantine due to COVID-19 global health crisis, the world realized that 
 * [Emotion Detection](#Emotion-Detection)
 * [News/articles Classification](#News/articles-Classification)
 
-## General info
+## Solution Pitch
 Mood Booster is a Web App desinged to help people stay mentally healthy in quarantine due to COVID-19, but not only in quarantine, also in their normal life style. Mood Booster's purpose is to keep up a positive mindset on the users feeding them with news and articles of their favorite topics and hobbies to show them how beautiful they can make their own life. This will be done in the following process:
 
 - Survey
