@@ -1,6 +1,6 @@
 # TechLabs-Project
 
-# Mood.Booster
+# Mood Booster
 ## Which is the problem the solution solves?
 During quarantine due to COVID-19 global health crisis, the world realized that not everyone is prepared mentally for a lockdown, this has increased the suicide rate and depression skyrocket, Mood Booster goal its to reduce the lockdown effect on mental health using technology.
 
@@ -34,16 +34,16 @@ Using [`Natural Language Toolkit`](http://www.nltk.org/), based on the informati
 
 |                   	Headline                        | Label |
 | ---                                                 | ---   | 
-| ‘Death Proof’ (2007) is my favourite Quentin T...   |  0    |
-| I need help finding the title of a movie.	          |  1    |
-| Nutrition and Exercise: Timing is Everything	      |  0    |
+| ‘Death Proof’ (2007) is my favourite Quentin T...   |   0   |
+| I need help finding the title of a movie.	          |   1   |
+| Nutrition and Exercise: Timing is Everything	      |   0   |
 | What makes unbalanced Movie bad?	                  | -1    |
-| Could I get your thoughts on "Computational St...   |  0    |
-| New on Streaming Official Discussion Megathrea...   |  0    |
-| Why superheroes don't die permanently in film?      |  1    |
-| Looking for films similar to Bone Tomahawk          |  0    |
+| Could I get your thoughts on "Computational St...   |   0   |
+| New on Streaming Official Discussion Megathrea...   |   0   |
+| Why superheroes don't die permanently in film?      |   1   |
+| Looking for films similar to Bone Tomahawk          |   0   |
 | Fifteen years on, how does Star Wars: Revenge ...   | -1    |
-| Anybody else thinks 3:10 Yuma has a very deep ...   |  0    |
+| Anybody else thinks 3:10 Yuma has a very deep ...   |   0   |
 
 Where (-1) stands for bad, (0) for neutrals and (1) stands for good news/articles.
 
