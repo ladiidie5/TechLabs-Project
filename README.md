@@ -11,14 +11,13 @@ Mood Booster is a Web App desinged to help people stay mentally healthy in quara
 
 ## Impact on the crisis
 
+# Further description	
+
 ## Table of contents
-* [Further description](#Further-description)
 * [Survey](#Survey)
 * [Facebook Scraping](#Facebook-Scraping)
 * [Emotion Detection](#Emotion-Detection)
 * [News/articles Classification](#News/articles-Classification)
-
-# Further description	
 
 ## Survey
 Initially, a survey will be conducted for each user to get to know more about his tastes, and every day a small survey will be conducted along with a good morning message to know how she/he is feeling on that day.
