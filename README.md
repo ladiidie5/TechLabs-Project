@@ -7,29 +7,32 @@
 * [General info](#general-info)
 * [Survey](#Survey)
 * [Facebook Scraping](#Facebook-Scraping)
-* [Emotion detention](#Emotion-detention)
-* [News Clasification](#News-Clasification)
-* [Setup](#setup)
+* [Emotion Detection](#Emotion-Detection)
+* [News Classification](#News-Classification)
 
 ## General info
-Mood Booster is a Web App desinged to help people stay mentally healthy in quarantine due to COVID-19, but not only in quarantine, also in normal life style. Mood Booster purpose its to kepp up an positive mind set on the users.
+Mood Booster is a Web App desinged to help people stay mentally healthy in quarantine due to COVID-19, but not only in quarantine, also in normal life style. Mood Booster's purpose its to keep up a positive mindset on the users. This will be done in the following process:
+
+- Survey
+- Facebook access (optional)
+- Emotion detection
+- News classification and publication.
 	
 ## Survey
+Initially, a survey will be conducted for each user to get to know more about his tastes, and every day a small survey will be conducted along with a good morning message to know how she/he is feeling on that day.
 
 ## Facebook Scraping
 
-## Emotion detention
+## Emotion detection
+Using [`DeepFace`](https://github.com/serengil/deepface) algorithm the user's face is scanned to detect her/his facial expression.
 
-## News Clasification
+<p align="center"><img src="https://github.com/ladiidie5/TechLabs-Project/blob/master/Realtime_2%20test.PNG" width="60%" height="60%"></p>
 
-## Setup
-To run this project, install it locally using npm:
+## News Classification
+Using [`Natural Language Toolkit`](http://www.nltk.org/), based on the information provided by the initial survey and Facebook scraping (optional), Mood Booster will import news/articles headlines to classify as good, neutral and bad, according to the classification these will be feed to the users during the day.
 
-```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
+-----------------------------------------------------
+
 Project-How to stay mentally healthy in quarantine?
 
 Basic idea: Build a website application where the users interact with a survey in which they are asked basic questions on how is their day going (related to their mood). Survey answers will be analysed and the app will return content based on the mood of the user:
