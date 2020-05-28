@@ -1,7 +1,7 @@
 # TechLabs-Project
 
-**Mood.Booster**
-
+## Mood.Booster
+During quarantine due to COVID-19 global health crisis, the world realized that not everyone is prepared mentally for a lockdown, this has increased the suicide rate and depression, Mood Booster goal its to reduce the lockdown effect on metal health using technology.
 
 ## Table of contents
 * [General info](#general-info)
