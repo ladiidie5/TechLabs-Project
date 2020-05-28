@@ -1,17 +1,8 @@
 # TechLabs-Project
 
-## Mood.Booster
+# Mood.Booster
+## Which is the problem the solution solves?
 During quarantine due to COVID-19 global health crisis, the world realized that not everyone is prepared mentally for a lockdown, this has increased the suicide rate and depression skyrocket, Mood Booster goal its to reduce the lockdown effect on mental health using technology.
-
-## Table of contents
-* [Solution Pitch](#Solution-Pitch)
-* [The solution](#The-solution)
-* [Impact on the crisis](#Impact-on-the-crisis)
-* [Further description](#Further-description)
-* [Survey](#Survey)
-* [Facebook Scraping](#Facebook-Scraping)
-* [Emotion Detection](#Emotion-Detection)
-* [News/articles Classification](#News/articles-Classification)
 
 ## Solution Pitch
 Mood Booster is a Web App desinged to help people stay mentally healthy in quarantine due to COVID-19, but not only in quarantine, also in their normal life style. Mood Booster's purpose is to keep up a positive mindset on the users feeding them with news and articles of their favorite topics and hobbies to show them how beautiful they can make their own life. 
@@ -20,7 +11,15 @@ Mood Booster is a Web App desinged to help people stay mentally healthy in quara
 
 ## Impact on the crisis
 
+## Table of contents
+* [Further description](#Further-description)
+* [Survey](#Survey)
+* [Facebook Scraping](#Facebook-Scraping)
+* [Emotion Detection](#Emotion-Detection)
+* [News/articles Classification](#News/articles-Classification)
+
 # Further description	
+
 ## Survey
 Initially, a survey will be conducted for each user to get to know more about his tastes, and every day a small survey will be conducted along with a good morning message to know how she/he is feeling on that day.
 
@@ -34,12 +33,12 @@ Using [`DeepFace`](https://github.com/serengil/deepface) algorithm the user's fa
 ## News Classification
 Using [`Natural Language Toolkit`](http://www.nltk.org/), based on the information provided by the initial survey and Facebook scraping (optional), Mood Booster will import news/articles headlines to classify as good, neutral and bad, according to the classification these will be feed to the users during the day.
 
-|                  	Headline                      | Label |
+|                   	Headline                        | Label |
 | ---                                                 | ---   | 
 | ‘Death Proof’ (2007) is my favourite Quentin T...   |  0    |
-| I need help finding the title of a movie.	      |  1    |
+| I need help finding the title of a movie.	          |  1    |
 | Nutrition and Exercise: Timing is Everything	      |  0    |
-| What makes unbalanced Movie bad?	              | -1    |
+| What makes unbalanced Movie bad?	                  | -1    |
 | Could I get your thoughts on "Computational St...   |  0    |
 | New on Streaming Official Discussion Megathrea...   |  0    |
 | Why superheroes don't die permanently in film?      |  1    |
