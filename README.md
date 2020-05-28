@@ -1,6 +1,30 @@
 # TechLabs-Project
-**Mood.Booster**
 
+##**Mood.Booster**
+
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
+This project is simple Lorem ipsum dolor generator.
+	
+## Technologies
+Project is created with:
+* Lorem version: 12.3
+* Ipsum version: 2.33
+* Ament library version: 999
+	
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
 Project-How to stay mentally healthy in quarantine?
 
 Basic idea: Build a website application where the users interact with a survey in which they are asked basic questions on how is their day going (related to their mood). Survey answers will be analysed and the app will return content based on the mood of the user:
