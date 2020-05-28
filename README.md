@@ -5,19 +5,22 @@ During quarantine due to COVID-19 global health crisis, the world realized that 
 
 ## Table of contents
 * [Solution Pitch](#Solution-Pitch)
+* [The solution](#The-solution)
+* [Impact on the crisis](#Impact-on-the-crisis)
+* [Further description](#Further-description)
 * [Survey](#Survey)
 * [Facebook Scraping](#Facebook-Scraping)
 * [Emotion Detection](#Emotion-Detection)
 * [News/articles Classification](#News/articles-Classification)
 
 ## Solution Pitch
-Mood Booster is a Web App desinged to help people stay mentally healthy in quarantine due to COVID-19, but not only in quarantine, also in their normal life style. Mood Booster's purpose is to keep up a positive mindset on the users feeding them with news and articles of their favorite topics and hobbies to show them how beautiful they can make their own life. This will be done in the following process:
+Mood Booster is a Web App desinged to help people stay mentally healthy in quarantine due to COVID-19, but not only in quarantine, also in their normal life style. Mood Booster's purpose is to keep up a positive mindset on the users feeding them with news and articles of their favorite topics and hobbies to show them how beautiful they can make their own life. 
 
-- Survey
-- Facebook access (optional)
-- Emotion detection
-- News/articles classification and publication.
-	
+## The solution
+
+## Impact on the crisis
+
+# Further description	
 ## Survey
 Initially, a survey will be conducted for each user to get to know more about his tastes, and every day a small survey will be conducted along with a good morning message to know how she/he is feeling on that day.
 
@@ -47,6 +50,15 @@ Using [`Natural Language Toolkit`](http://www.nltk.org/), based on the informati
 Where (-1) stands for bad, (0) for neutrals and (1) stands for good news/articles.
 
 -----------------------------------------------------
+We will also ask you the following questions: 
+
+1. Title of the project
+2. Which is the problem the solution solves? (max. 200 words)
+3. Solution Pitch (4-5 Sentences)
+4. The solution (max. 200 words)
+5. Impact on the crisis (max 200 words)
+
+
 
 Project-How to stay mentally healthy in quarantine?
 
