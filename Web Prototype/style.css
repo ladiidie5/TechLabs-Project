@@ -1,3 +1,9 @@
+.navbar {
+    background-color: #3fc5f0 !important;
+}
+
+
+/* Main page body */
 .header{
     background-image: url('Images/maui.jpg');
     background-attachment: fixed;
@@ -23,6 +29,8 @@
     background-color: rgb(204, 204, 204, 0.80);
     
 }
+
+/* Team section */
 .card{
     width: 20px;
 }
@@ -36,6 +44,10 @@
     width: 90%;
 }
 
+.teamDivider {
+    border: 1px solid #3fc5f0;
+}
+
 /* FOOTER CSS */
 
 .page-footer{
@@ -44,7 +56,7 @@
 }
 
 .footerContainer {
-    background-color: #D5CAC1;
+    background-color: #eef5b2;
     color:gray;
     padding-top: 20px;
 }
@@ -63,15 +75,28 @@
 .questionRow {
     justify-content: left;
     margin-top: 10px;
-    background-color: honeydew;
+    background-color: #42dee1;
     font-weight: bold;
     font-size: 20px;
+    border-radius: 5px;
+    height: 70px;
 }
 
 .question {
-    padding: 20px 0px;
+    padding: 20px;
+    vertical-align: middle;
 }
 
 .optionContainer{
     padding: 20px 0px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    margin-top: 10px;
+
+
+}
+
+.icon {
+    padding: 20px;
+
 }
