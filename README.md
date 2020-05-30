@@ -50,11 +50,3 @@ Using [`Natural Language Toolkit`](http://www.nltk.org/), based on the informati
 Where (-1) stands for bad, (0) for neutrals and (1) stands for good news/articles.
 
 -----------------------------------------------------
-We will also ask you the following questions: 
-
-1. Title of the project
-2. Which is the problem the solution solves? (max. 200 words)
-3. Solution Pitch (4-5 Sentences)
-4. The solution (max. 200 words)
-5. Impact on the crisis (max 200 words)
-
