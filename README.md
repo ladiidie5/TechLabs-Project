@@ -11,6 +11,7 @@ Mood Booster is a Web App desinged to help people stay mentally healthy in quara
 Mood Booster will start with a survey to get to know more about the user and take a photo, it will be optional to get access to Facebook for further exploring around the user taste, according to the information collected, Mood Booster will import and classify as good, neutral or bad news/articles. Every morning the web app/app along with a good morning and motivational quote will check the mood of the user, according to the mood of the user that day news, articles and content will be feed via notifications, this will also include recommendations on series, yoga, Sen culture, games, conferences, ted talks, etc. Due to the COVID-19 quarantine initially, Mood Booster won't ask about the mood, it will start with a good morning, motivational quote, and an invitation to do activities according to your tastes.
 
 ## Impact on the crisis
+Mood Booster will become an entertainment and emotional ally for our users, to the extent that it gets to know their taste and fine-tune the suggestions to be more effective keeping a positive mindset, in the long run, the real purpose it that the users get to see how awesome their life is, create healthy habits, keep their mind busy and be more resilient to events that they can't entirely control.
 
 # Further description	
 
