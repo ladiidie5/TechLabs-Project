@@ -1,41 +1,19 @@
 # Data analysis
-This module analyzes and predict health trends in quarantine periods and much earlier. It is divided by dataset analysis sections. Then there are some implementations with web scraping and using the most famous and used facebook API. Finally, we will work with data provided by the website of the virtual page that will track each comment.
 
+## Introduction
+The following section is dedicated to analyzing and predicting health trends in times 
+of quarantine, more focused on the people who need it. The section is divided into two 
+sections where, in the first section with dataset of https://www.data.gov/ you will see
+if there is a need to provide support to people who are in trouble at the moment 
+so difficult. Then there is the implementation with web scraping and using the most famous and used 
+api of facebook to collect user data and give an end result of their tastes.
+Finally it will show how it works with data provided by the social network Facebook,
+This will use the api and web scraping to obtain the categories of the page.
 
 ### DATA
-To begin with, we will look at some important data showing how much they affect mental health. This data is very important because we will see if this the importance of using an application to solve this problem.
-
-### APPLICATION
-We have already seen the graphics and each one that means, how all this would apply for its best use. To see the step-by-step of how the data was obtained, you could see it in the mining_data_facebook section and the results are this were.
-
-This sample of data was chosen because you want to see how the person likes and how we can interact with them to have a better response to the use of the app. As can be seen in the graph.
-The tastes of this person are ........ and we can use this sample so that in the application there is only reference to these tastes.
-
-The following implementation is to validate if the statistics gave a result without error. This analysis is a script where a sample of 20 pages is collected that the person follows, after this we look at what type of category they are. At the end we compare the results we obtained with the used graph.
-
-If this result is as expected, we turn to the use of news and music to recommend this person's tastes and preferences.
-
-### PURPOSE
-in the end it is expected that the person will surround himself with less negative aspect that today the internet provides. To verify if the result was good, a survey was made on the website.
-
-
-
-# Data análisis
-
-## Introducción
-El siguiente apartado es dedicado a analizar y predecir tendencia sobre la salud en épocas 
-de cuarentena, mas enfocado a las personas que lo necesitan. El apartado se divide en dos 
-secciones donde, en la primera sección con dataset de https://www.data.gov/ se observara
-si es hay necesidad para suplir apoyo a personas que estén con problemas en estos momentos 
-tan difíciles. Luego esta la implementación con web scraping y usando la mas famosa y usada 
-api de facebook para recolectar datos del usuario y dar un resultado final de sus gustos.
-Por ultimo se mostrara como trabaja con datos proporcionado por la red social Facebook,
-En esta se utilizara la api y web scraping para obtener las categorías de la pagina.
-
-### DATOS
-para empezar, mostrare algunos datos importantes que muestran a cuantos afectan la salud
-mental. Estos datos son muy importantes porque miraremos si esta la importancia del uso de
-una aplicacion para resolver este problema.
+To start, I'll show you some important facts that show how many people are affected by health
+mental. This data is very important because we will see if this is the importance of the use of
+an application to solve this problem.
 
 
 ![Image](https://github.com/ladiidie5/TechLabs-Project/blob/master/analysis_data/graphics/gob_invest.png)
@@ -50,30 +28,30 @@ una aplicacion para resolver este problema.
 
 
 ### APLICACION
-Con los anteriores graficos se puede dimensionar que si hay una necesidad de una aplicacion
-para poder ayudar a personas que necesiten un apoyo en el tema de la salud mental. Luego ya 
-que se tiene presente que se necesita un apoyo para estas personas; Se dara uso de la aplicacion.
-Una de las herramientas que va tener la aplicacion es en el tema de analisis de datos que se hara 
-mediante la api de facebook. Este recolectara todos los datos importantes sobre los gustos de las
-personas y se clasificaran entre los mas importantes, como se muestra en el siguiente grafico
-Ya vimos los graficos y cada uno que significa, como tendria aplicacion todo esto para su mejor <br />
-fuso.
+With the above graphics you can dimension that if there is a need for an application
+to be able to help people who need support in mental health issues. Then you can 
+that you are aware of the need for support for these people; the application will be used.
+One of the tools that the application will have is in the subject of data analysis that will be done 
+through the facebook api. This will collect all the important data about the tastes of the
+people and will be classified among the most important, as shown in the following graph
+We've already seen the graphics and each one means, how would all this apply to your best
+use.
+![Image](https://github.com/ladiidie5/TechLabs-Project/blob/master/analysis_data/graphics/face_gr.png)
 
-Para ver el paso a paso de como se obtuvieron los datos, se pude ver en el apartado de **mining_data_facebook**<br />
-y los resultado es esto fueron.
 
-Esta muestra de datos se escogio porque se quiere ver el gusto que tiene la persona y como podemos <br />
-interactuar con ella para tener un mejor respuesta al uso de la app. Commo se puede ver en la grafica.<br />
-Los gustos de esta persona son ........ y podemos utilizar essta muestra para que en la aplicacion solo <br />
-haya referencia de estos gustos.
+As you can see in the image the higher results means that it will be your taste and it will be used
+and then show content that helps the person improve their mental health.
+To see the step by step of how the data was obtained, you can see in the 
+**mining_data_facebook** and see how the data was obtained.
 
-La siguiente implementacion es para validar si las estadisticas dieron un resultado sin error. Este analisis <br />
-es un script donde se recolecta una muestra de 20 paginas que la persona sigue, despues de esto miramos en que <br />
-tipo de categoria estan. Al finalizar comparamos los resultados que obtuvimos con la grafica usada. <br />
+The following implementation is to verify if these data are true. With this, a sample is taken
+of the web pages that the person follows and then in this one, with web scraping is obtained in the category in
+than this one. As shown in the image below.
 
-Si este resutlado es como se esperaba pasamos al uso de las noticias y la musica para recomendar a esta persona <br />
-sus gustos y preferencias.
+![Image](https://github.com/ladiidie5/TechLabs-Project/blob/master/analysis_data/graphics/images.jpg)
 
 ### FINALIDAD
-al final se espera que la persona se rodee de menos aspecto negativos que brinda hoy en dia el internet. <br />
-Para verificar si el resultado estuvo bien, se hizo una encuesta en la pagina web.
+With the first data we observe, it is already clear that there is a need for a
+helps people who are suffering and need help, then it is with the help of the networks
+social we can look at the tastes and see what the person might like in the future.
+Finally we will get a recommendation to this person hoping that there will be improvements.
