@@ -46,7 +46,7 @@ The following implementation is to verify if these data are true. With this, a s
 of the web pages that the person follows and then in this one, with web scraping is obtained in the category in
 than this one. As shown in the image below.
 
-![Image](https://github.com/ladiidie5/TechLabs-Project/blob/master/analysis_data/graphics/images.jpg)
+![Image](https://github.com/ladiidie5/TechLabs-Project/blob/master/analysis_data/graphics/imagenes.png)
 
 ### FINALIDAD
 With the first data we observe, it is already clear that there is a need for a
