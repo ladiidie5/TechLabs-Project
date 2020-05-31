@@ -25,11 +25,13 @@ Mood Booster will become an entertainment and emotional ally for our users, to t
 Initially, a survey will be conducted for each user to get to know more about his tastes, and every day a small survey will be conducted along with a good morning message to know how she/he is feeling on that day.
 
 ## Facebook Scraping and Data
-Data obtained from sources such as data.gov help show that there is a need for
-help people who are suffering and who need help, then this one with the help of the
-social media we can look at the tastes and see what the person might like in the future.
-Finally we will get a recommendation to this person hoping that there will be 
-improvements showing it  with an application on the website.
+With the data obtained within the analysis of data from various datasets and data on the person, it can be recommended
+news and tastes. First of all, the data obtained from sources like data.gov helped to prove that there was
+the need to help people who are suffering from these problems apart from this, as already mentioned the use of 
+database we can recommend news to these people and improve their day.
+
+![Image](https://github.com/ladiidie5/TechLabs-Project/blob/master/analysis_data/graphics/news.png)
+
 ## Emotion detection
 Using [`DeepFace`](https://github.com/serengil/deepface) algorithm the user's face is scanned to detect her/his facial expression.
 
@@ -38,17 +40,17 @@ Using [`DeepFace`](https://github.com/serengil/deepface) algorithm the user's fa
 ## News Classification
 Using [`Natural Language Toolkit`](http://www.nltk.org/), based on the information provided by the initial survey and Facebook scraping (optional), Mood Booster will import news/articles headlines to classify as good, neutral and bad, according to the classification these will be feed to the users during the day.
 
-|                   	Headline                        | Label |
+|                   	Headline                      | Label |
 | ---                                                 | ---   | 
 | ‘Death Proof’ (2007) is my favourite Quentin T...   |   0   |
 | I need help finding the title of a movie.	          |   1   |
 | Nutrition and Exercise: Timing is Everything	      |   0   |
-| What makes unbalanced Movie bad?	                  | -1    |
+| What makes unbalanced Movie bad?	                  |   -1  |
 | Could I get your thoughts on "Computational St...   |   0   |
 | New on Streaming Official Discussion Megathrea...   |   0   |
 | Why superheroes don't die permanently in film?      |   1   |
 | Looking for films similar to Bone Tomahawk          |   0   |
-| Fifteen years on, how does Star Wars: Revenge ...   | -1    |
+| Fifteen years on, how does Star Wars: Revenge ...   |   -1  |
 | Anybody else thinks 3:10 Yuma has a very deep ...   |   0   |
 
 Where (-1) stands for bad, (0) for neutrals and (1) stands for good news/articles.

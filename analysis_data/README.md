@@ -49,7 +49,10 @@ than this one. As shown in the image below.
 ![Image](https://github.com/ladiidie5/TechLabs-Project/blob/master/analysis_data/graphics/imagenes.png)
 
 ### PURPOSE
-With the first data we observe, it is already clear that there is a need for a
-helps people who are suffering and need help, then it is with the help of the networks
-social we can look at the tastes and see what the person might like in the future.
-Finally we will get a recommendation to this person hoping that there will be improvements.
+In conclusion with the previous graphs we can see that there is a need for help to 
+people who have mental health problems, and if they don't, they may also be
+to people who are going through difficult situations. Then with the data provided by
+the facebook api we make a recommendation of news that this person might like, like
+is shown in the following graphic, and then displayed on a web page.
+
+![Image](https://github.com/ladiidie5/TechLabs-Project/blob/master/analysis_data/graphics/news.png)
