@@ -24,8 +24,6 @@ an application to solve this problem.
 
 ![Image](https://github.com/ladiidie5/TechLabs-Project/blob/master/analysis_data/graphics/vil_PDF.png)
 
-![Image](https://github.com/ladiidie5/TechLabs-Project/blob/master/analysis_data/graphics/pro_dep.png)
-
 
 ### APLICACION
 With the above graphics you can dimension that if there is a need for an application
