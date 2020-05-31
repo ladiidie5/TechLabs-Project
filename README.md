@@ -27,9 +27,9 @@ Initially, a survey will be conducted for each user to get to know more about hi
 ## Facebook Scraping and Data
 Data obtained from sources such as data.gov help show that there is a need for
 help people who are suffering and who need help, then this one with the help of the
-social we can look at the tastes and see what the person might like in the future.
-Finally we will get a recommendation to this person hoping that there will be improvements showing it 
-with an application on the website.
+social media we can look at the tastes and see what the person might like in the future.
+Finally we will get a recommendation to this person hoping that there will be 
+improvements showing it  with an application on the website.
 ## Emotion detection
 Using [`DeepFace`](https://github.com/serengil/deepface) algorithm the user's face is scanned to detect her/his facial expression.
 
