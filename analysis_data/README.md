@@ -1,5 +1,5 @@
 # Data analisis
-este es un modulo para analisar y predecir tendencia sobre la salud  en epocas de cuarentena <br />
+El siguiente apartado es dedicado a analisar y predecir tendencia sobre la salud  en epocas de cuarentena <br />
 y mucho mas antes. Este modulo se divide por seciones de analisis de dataset. luego estan <br />
 algunas implementaciones con web scraping y usando la mas famosa y usada api <br />
 de facebook.
