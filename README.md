@@ -25,6 +25,7 @@ Mood Booster will become an entertainment and emotional ally for our users, to t
 Initially, a survey will be conducted for each user to get to know more about his tastes, and every day a small survey will be conducted along with a good morning message to know how she/he is feeling on that day.
 
 ## Facebook Scraping
+The users will decide whether they want to give access to Facebook information if they give access, Mood Booster will analyze what kind of pages they follow and their likes on post.
 
 ## Emotion detection
 Using [`DeepFace`](https://github.com/serengil/deepface) algorithm the user's face is scanned to detect her/his facial expression.
